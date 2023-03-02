@@ -17,8 +17,13 @@
     font-size: 3rem;
     text-align: center;
     z-index: 2;
+    color: chartreuse;
 }
 
+body{
+    background-color: royalblue;
+    color: coral;
+}
 
 @media only screen and (min-width: 400px) {
   
