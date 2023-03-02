@@ -25,6 +25,17 @@ body{
     color: coral;
 }
 
+#submit {
+    transition-duration: 0.4s;
+    border: 5px solid #4CAF50;
+
+}
+#submit:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 @media only screen and (min-width: 400px) {
   
     body {
@@ -75,7 +86,7 @@ body{
       display: inline-block;
     }
   
-    #input-button{
+    #input-submit{
       font-family: "Roboto", Times, serif;
       display: block;
       margin-left: 15px;
@@ -133,7 +144,7 @@ body{
         display: inline-block;
       }
     
-      #input-button{
+      #input-submit{
         font-family: "Roboto", Times, serif;
         display: block;
         margin-left: 20px;
@@ -193,7 +204,7 @@ body{
       display: inline-block;
     }
   
-    #input-button{
+    #input-submit{
       font-size: 250%;
       font-family:"Roboto", Times, serif;
       display: block;
@@ -254,7 +265,7 @@ body{
       display: inline-block;
     }
   
-    #input-button{
+    #input-submit{
       font-size: 300%;
       font-family:"Roboto", Times, serif;
       display: block;
