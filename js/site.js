@@ -9,7 +9,6 @@ function time() {
   function on() {
     document.getElementById("overlay").style.display = "block";
   }
-  document.getElementById("demo").innerHTML = 5 + 6;
   
   function off() {
     document.getElementById("overlay").style.display = "none";
