@@ -7,7 +7,6 @@ body{
 #submit {
   transition-duration: 0.4s;
   border: 5px solid #4CAF50;
-
 }
 #submit:hover {
   background-color: #4CAF50;
@@ -21,7 +20,6 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
 }
   
 #overlay-text {
@@ -32,9 +30,32 @@ body{
   color: black;
   font-size: 3rem;
   text-align: center;
-  z-index: 2;
   color: chartreuse;
+  padding-bottom: 10em;
 }
+
+#overlay-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    color: chartreuse;
+    padding-bottom: 6em;
+}
+
+  #overlay-text3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    color: chartreuse;
+  }
 
 @media only screen and (min-width: 400px) {
   body {
