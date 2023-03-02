@@ -11,9 +11,9 @@
 </head>
 <body>
   <main id="content">
-    <div id="overlay" onclick="on()">
-      <form method="get" action="#null" id="form">
-        <h1>Mailing List</h1>
+    <div id="overlay">
+      <form method="get" action="#null" id="form" >
+        <h1  onCLick="off()" >Mailing List</h1>
         <p>Join our mailing list, and be up to date on all the latest tech news!</p>
         <ol>
           <li id="input-email">
@@ -25,7 +25,7 @@
             <input type="text" id="fName" name="fName">
           </li>
           <li id="input-submit">
-            <input type="submit" name="submit" id="submit" onclick="time()" onClick="on()"  value="Join Here">
+            <input type="submit" name="submit" id="submit" onclick="on()" value="Join Here">
           </li>
         </ol>
       </form>
