@@ -11,25 +11,26 @@
 </head>
 <body>
   <main id="content">
-    <form method="get" action="#null">
-      <h1>Mailing List</h1>
-      <p>Join our mailing list, and be up to date on all the latest tech news!</p>
-      <ol>
-        <li id="input-email">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" pattern="^.+@.+$">
-        </li>
-        <li id="input-full-name">
-          <label for="fName">Full Name</label>
-          <input type="text" id="fName" name="fName">
-        </li>
-        <li id="input-button">
-          <button id="submit">Join Here</button>
-          <div id="overlay"></div>  
-
-        </li>
-      </ol>
-    </form>
-    </main>
+    <div id="overlay" onclick="off()">
+      <form method="get" action="#null">
+        <h1>Mailing List</h1>
+        <p>Join our mailing list, and be up to date on all the latest tech news!</p>
+        <ol>
+          <li id="input-email">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" pattern="^.+@.+$">
+          </li>
+          <li id="input-full-name">
+            <label for="fName">Full Name</label>
+            <input type="text" id="fName" name="fName">
+          </li>
+          <li id="input-submit">
+            <input type="submit" name="submit" id="submit" onclick="time()" value="Join Here">
+          </li>
+        </ol>
+      </form>
+    </div>
+  </main>
+  <p id="dateButton">Submitted</p>
 </body>
 </html>

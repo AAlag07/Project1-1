@@ -1,15 +1,15 @@
-
-function Time() {
-  const now = new Date();
-  const timeString = now.toLocaleTimeString();
-
-    const overlayText = document.createElement('div');
-    overlayText.id = 'overlay-text';
-    overlayText.innerHTML = `The time is: ${timeString}`;
-
-    // Add the overlay text element to the overlay div
-    const overlay = document.getElementById('overlay');
-    overlay.appendChild(overlayText);
+function time() {
+  var currentdate = new Date(); 
+  var timenow = + currentdate.getHours() + ":"  
+              + currentdate.getMinutes() + ":" 
+              + currentdate.getSeconds();
+    document.getElementById("dateButton").innerHTML = "Submitted at: "+timenow;
   }
 
-  document.getElementById('submit').addEventListener('click', Time);
+  function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
